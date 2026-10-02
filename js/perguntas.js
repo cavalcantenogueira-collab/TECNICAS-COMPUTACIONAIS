@@ -1,16 +1,16 @@
 
 export const perguntas = [
     {
-        enunciado: "O que você acha da IA?",
+        enunciado: "O que fazer caso sua cidade seja atingida por um forte tornado?",
         alternativas: [
             {
-                texto: "É assustadora.",
-                afirmacao: ["Você ficou preocupado."],
+                texto: "Procurar abrigo imediatamente em um cômodo interno sem janelas no andar mais baixo de uma construção sólida.",
+                afirmacao: ["Você foi esperto e correu para se proteger!"],
                 proxima: 1,
             },
             {
-                texto: "É interessante.",
-                afirmacao: ["Você ficou curioso."],
+                texto: "Observar o tornado de forma desprotegida de uma janela ou até mesmo fora de um abrigo.",
+                afirmacao: ["Você foi curioso e burro e vai morrer se um tornado aparecer."],
                 proxima: 1,
             },
         ]
